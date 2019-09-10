@@ -1,0 +1,40 @@
+content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+   
+}
+.butarticle{
+margin-left: 27px;
+ background: #911730;
+ margin-top: 18px;
+ width: 130px;
+ border-radius: 4px;
+ height: 26px;
+ font-family: 'Oswald',sans-serif;
+ font-size: 14px;
+ border: none;
+}
+div.row{
+    margin: 0;
+}
+.btnPower{
+ position: absolute;
+ right: 20px;
+ top: 20px;
+ border-radius: 5px;
+ border: none;
+ background: #4e4e4e;
+ height: 35px;
+}
+@media screen and (max-width: 700px) {
+   
+  }
+@media screen and (max-width: 400px) {
+   
+    .butarticle{
+        margin-left: 15px;
+       
+        }
+ 
+  }
