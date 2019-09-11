@@ -104,3 +104,8 @@ li{
   .imgParagraph{
     width: 95%;
   }
+  @media screen and (max-width: 936px) {
+    .imgStars {
+    display:none;
+    }
+}
