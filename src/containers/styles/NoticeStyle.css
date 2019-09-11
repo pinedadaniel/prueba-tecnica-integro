@@ -1,0 +1,125 @@
+body{
+    background: #f7f7f7;
+}
+.bg-page{
+    background-color: red;
+}
+.contTittleNotice{
+    background: white;
+    height: 65px;
+}
+.contButBack{
+    height: 60px;
+}
+.tittleNotice{
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 19px;
+    color: #4e4e4e;
+    font-family: Arial,sans-serif;
+    font-weight: 600;
+}
+.iconLikek{
+    margin-left: 20px;
+}
+.butBack{
+ margin-left: 83px;
+ background: #911730;
+ margin-top: 25px;
+ width: 150px !important;
+ border-radius: 4px;
+ height: 35px !important;
+ font-family:'arial',sans-serif;
+ font-size: 12px;
+ border: none;
+ font-weight: 600;
+}
+.imgLinen{
+    width: 50%;
+}
+.tittleTiket{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #a9a9a9;
+    font-weight: 600;
+    margin: 5px;
+}
+.contTagl{
+    background-color: #e8e8e8;
+    width: 50px;
+    height: 25px;
+    border-radius: 6px;
+    display: inline;
+    margin-left: 2px;
+}
+.tagl{
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    color: #5b5b5b;
+    font-weight: 600;
+    margin: 6px;
+    display: inline;
+}
+.imgDate{
+    width: 95%;
+}
+.articleFull{
+   
+   margin-left: 70px;
+  
+}
+.articleFullt{
+    width: 96%;
+    margin-left: 40px;
+}
+.pack{
+    height: 1300px;
+}
+@media screen and (max-width: 1250px) {
+   .contImgArticle{
+       display: none;
+   }
+   .pack{
+    display: none;
+}
+   
+  }
+  @media screen and (min-width: 1250px) {
+
+    .packing{
+     display: none;
+ }
+
+    
+   }
+   @media screen and (max-width: 700px) {
+
+    .articleFullt{
+        width: 100%;
+        margin-left: 0;
+    }
+  
+}
+   .foto{
+       margin-left: 60px;
+       width: 100%;
+    
+   }
+   .fotoi{
+    margin-left: 60px ;
+    width: 100%;
+  
+ }
+   @media screen and (max-width: 1250px) {
+
+   .foto{
+    margin-left: 50px;
+    width: 100%;
+    margin-top: 130px;
+}
+.fotoi{
+     margin-left: 50px ;
+     width: 100%;
+ 
+}
+   }

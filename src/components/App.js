@@ -5,6 +5,8 @@ import Home from '../containers/HomePages';
 import OnePage from '../containers/OnePages';
 import TwoPage from '../containers/TwoPages';
 import ThreePage from '../containers/ThreePages';
+import NoticePage from '../containers/NoticePages';
+
 import 'bootstrap/dist/css/bootstrap.css'; 
 
 const App = () => {
@@ -14,9 +16,10 @@ const App = () => {
             <Layout>
               <Switch>
                   <Route exact path = "/" component={Home}/>
+                  <Route exact path = "/NoticePage" component={NoticePage}/> 
                   <Route exact path = "/OnePage" component={OnePage}/>   
                   <Route exact path = "/TwoPage" component={TwoPage}/>    
-                  <Route exact path = "/ThreePage" component={ThreePage}/>             
+                  <Route exact path = "/ThreePage" component={ThreePage}/>                  
               </Switch> 
           </Layout>  
 

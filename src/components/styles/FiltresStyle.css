@@ -1,0 +1,70 @@
+.ContMain{
+    width: 327px;
+    display: grid;
+    height: 449px;
+}
+.contMainList{
+    background-color: #f7f7f7;
+}
+
+.ContFiltres{
+    width: 18vw;
+    height: 425px;
+    background:#e6e6e6;
+    border: solid 2px #dedede;
+    border-right:  solid 3px #dedede;
+  margin-left:70px;
+    grid-row: 2/3;
+    border-radius: 5px;
+}
+.tittleFiltre{
+    margin-top: 30px;
+    margin-left: 28px;
+    color: #4e4e4e;
+    font-family: 'arial',sans-serif;
+    font-size: 16.5px;
+    font-weight: 600;
+    letter-spacing: 0.5;
+}
+
+#exampleInputfiltre{
+    margin-left: 30px;
+    height: 28px;
+ 
+}
+.contInput{
+
+    width: 190px;
+
+}
+#exampleInputfiltre::placeholder {
+    color: rgb(195,195,195);
+    font-size: 13px;
+    font-weight: 600;
+   
+  }
+.tittleFiltreItem{
+    margin-left: 28px;
+    color: #808080;
+    font-family: 'arial',sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 0;
+    letter-spacing: 0.5px;
+  }
+  @media screen and (max-width: 1330px) {
+    .tittleFiltreItem{
+        margin-left: 10px;
+      }
+      #exampleInputfiltre{
+        margin-left: 10px;
+     
+     
+    }
+   }
+   @media screen and (max-width: 1200px) {
+   .contMainList{
+       display: none;
+   }
+   }

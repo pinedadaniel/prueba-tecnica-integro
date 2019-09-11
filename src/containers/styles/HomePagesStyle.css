@@ -1,40 +1,148 @@
-content {
-    margin-left: 200px;
-    padding: 1px 16px;
-    height: 1000px;
-   
+
+body{
+    background-color: #f7f7f7;
 }
+
+.Main{
+    height: 60px;
+
+}
+
 .butarticle{
-margin-left: 27px;
+margin-left: 10px;
  background: #911730;
  margin-top: 18px;
- width: 130px;
+ width: 132px;
  border-radius: 4px;
- height: 26px;
- font-family: 'Oswald',sans-serif;
- font-size: 14px;
+ height: 25px;
+ font-family:'arial',sans-serif;
+ font-size: 12px;
  border: none;
+ font-weight: 600;
+ 
 }
+.tittleSearch{
+    font-family: 'arial',sans-serif;
+    font-weight: 600;
+    margin-left:85px;
+    margin-top: 18px;
+    color: #4e4e4e;
+    font-size: 19px;
+} 
 div.row{
     margin: 0;
 }
 .btnPower{
  position: absolute;
- right: 20px;
- top: 20px;
+ right: 26px;
+ top: 13px;
  border-radius: 5px;
  border: none;
  background: #4e4e4e;
  height: 35px;
 }
 @media screen and (max-width: 700px) {
-   
+    .tittleSearch{
+        margin-left:20px;
+         } 
   }
 @media screen and (max-width: 400px) {
-   
+    .tittleSearch{
+        margin-left: 5px;
+     
+         }
     .butarticle{
-        margin-left: 15px;
-       
+        margin-left: 5px;
+     
         }
  
   }
+  @media screen and (max-width: 354px) {
+    .butarticle{
+      font-size: 3.5vw;
+      margin-left: 10px;
+      width: 40vw;
+      margin-top: 15px;
+        }
+        .tittleSearch{
+            font-size: 5vw;
+         
+             }
+  }
+  .contMainFiltres{
+      background-color: #f7f7f7;
+  }
+  .contMovil{
+    background-color: #f7f7f7;
+  }
+  @media screen and (max-width: 1200px) {
+    .contMainFiltres{
+        display: none;
+    }
+    }
+
+.imgLine{
+    margin-top: 10px;
+width: 100%;
+}
+.imgLine2{
+    width: 100%;
+   
+}
+.result{
+    color: #8e8e8e;
+    font-family: 'arial',sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 15px;
+
+}
+.listResult{
+    list-style: none;
+}
+.ulList{
+    padding-left: 0;
+    margin-bottom: 0;
+    
+}
+.butOrder{
+    border: none;
+    background-color: white;
+    color: #c2c2c2;
+    font-family: 'arial',sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 25px;
+    width: 110px;
+    border-radius: 5px;
+
+}
+.contMainMovil{
+    margin-left: 50px;
+  
+}
+.contEnd{
+    margin-left: 60px;
+    background-color: #f7f7f7;
+    width: 94% !important;
+    padding: 0 !important;
+    padding-left: 10px !important;
+
+}
+  @media screen and (min-width: 1201px) {
+    .contEnd{
+        display: none;
+    }
+    
+  }
+  @media screen and (max-width: 700px) {
+    .contEnd{
+      margin-left: 0px;
+      
+    }
+    
+  }
+
+ 

@@ -1,0 +1,106 @@
+.contCardMain{
+  
+    width: 72.5vw;
+}
+
+.contCard{
+    margin-top: 15px;
+    border: solid 1px #eaeaea;
+    width: 100%;
+  
+   
+}
+.card-body{
+    width: 100%;
+    padding: 0 !important;
+   margin: 7px;
+   
+}
+.iconCard{
+    margin-right: 6px;
+    margin-left: 6px;
+}
+.contMain:hover{
+    text-decoration: none;
+}
+.tittleCard{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #6c6c6c !important;
+}
+ul{
+    display: inline;
+    padding-left: 0;
+    
+    
+}
+li{
+    display: inline;
+}
+.ulItem{
+    margin-bottom: 0!important;
+
+}
+.OneCont{
+    height: 25px !important;
+}
+.TwoCont{
+    height: 25px !important;
+}
+.numLike{
+    margin-right: 20px;
+    color: #f43f64;
+    font-size: 12px;
+}
+.Newspaper{
+    background-color: #1f1f1f;
+    border-radius: 3px;
+    width: 90px;
+    height: 27px;
+    display: inline;
+}
+.textNewspaper{
+    font-weight: 600;
+    padding: 6px;
+    font-size: 13px;
+    font-family: Arial,  sans-serif;
+    display: inline;
+    color: white;
+}
+.liTags{
+    display: inline;
+}
+.imgStars{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.tittleTikets{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #a9a9a9;
+    font-weight: 600;
+    margin: 5px;
+    display: inline;
+}
+.contTag{
+    background-color: #e8e8e8;
+    width: 90px;
+    height: 25px;
+    border-radius: 6px;
+    display: inline;
+    margin-left: 6px;
+}
+.tag{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #5b5b5b;
+    font-weight: 600;
+    margin: 6px;
+    display: inline;
+}
+
+
+  .imgParagraph{
+    width: 95%;
+  }

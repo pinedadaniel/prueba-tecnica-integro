@@ -1,4 +1,64 @@
-.inputSearch{
-    margin-top: 20px;
-    margin-left: 100px;
+.tittleFormSearch{
+    font-family: 'arial',sans-serif;
+    font-weight: 600;
+    margin-left:85px;
+    padding-top: 30px;
+    color: #4e4e4e;
+    font-size: 16px;
 }
+.inputSearch{
+    margin-top: 7px;
+    margin-left:85px;
+    font-family: 'Helvetica', FontAwesome, sans-serif;
+}
+
+#gg::placeholder {
+    color: rgb(195,195,195);
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+
+ .but-Search{
+    width: 130px;
+    height:38px;
+    margin-top: 4px;
+    background-color: #911730;
+    border: none;
+    margin-right: 25px;
+ }
+ .text-search{
+     font-family: 'arial',sans-serif;
+     font-size: 15px;
+ }
+ .contComponentsSearch{
+     background-color: #f7f7f7;
+     height: 110px;
+ }
+ .contComponentsSearchMovil{
+    background-color: #f7f7f7;
+    height: 110px;
+ }
+ hr{
+  
+     margin:0 !important;
+ }
+ @media screen and (max-width: 700px) {
+   .tittleFormSearch{
+       margin-left: 20px;
+   }
+   .inputSearch{
+    margin-left: 20px;
+   }
+  }
+
+@media screen and (max-width: 500px) {
+    .contComponentsSearch{
+        display:none;
+    }
+  }
+  @media screen and (min-width: 500px) {
+    .contComponentsSearchMovil{
+        display:none;
+    }
+  }
